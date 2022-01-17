@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOIS 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input-group">
+        <div class="supgroup-text">
+            <span class="input-group-text" id="basic-addon1">Формула</span>
+        </div>
+        <input type="text" class="input-formula" id="formula"/>
+    </div>  
+    <tr>
+  <div  class="button-group">
+        <button type="button" class="btn" onclick="run()" value="find">ПРОВЕРИТЬ ЯВЛЯЕТСЯ ЛИ ФОРМУЛА НЕЙТРАЛЬНОЙ</button> 
+        <button class="btn" onclick="generate()">СГЕНЕРИРОВАТЬ</button> 
+  </div>
+
+    <script src = "script.js"></script>
+    <script src="generator.js"></script>
+    <table id="table" class="table table-striped"></table>
+</body>
+</html>
